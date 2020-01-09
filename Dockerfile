@@ -1,4 +1,5 @@
 FROM alpine:latest
+MAINTAINER Tindy X <tindy.it@gmail.com>
 
 # switch repo for usage in China
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
